@@ -1,0 +1,55 @@
+tegaki-zinnia-japanese (0.3-2) unstable; urgency=medium
+
+  * QA upload.
+  * Upload to unstable. 
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 15 Aug 2021 11:52:12 -0400
+
+tegaki-zinnia-japanese (0.3-2~exp1) experimental; urgency=medium
+
+  * QA upload.
+  * debian/control:
+    + Bump debhelper compat to v13. (Closes: #965830)
+    + Update homepage information.
+    + Bump Standards-Version to 4.5.1.
+    + Mark binary package as Multi-Arch: foreign.
+    + Use git repo on Debian Salsa platform.
+  * debian/rules: Use dh sequencer.
+  * debian/watch: Fix upstream version monitor.
+  * debian/changelog: Remove trailing spaces.
+  * debian/copyright: Rewrite in machine-readable format.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 10 Apr 2021 11:11:19 -0400
+
+tegaki-zinnia-japanese (0.3-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 16:42:08 +0100
+
+tegaki-zinnia-japanese (0.3-1) unstable; urgency=low
+
+  * new upstream release.
+  * debian/watch: updated.
+  * debian/control:
+    - bump standards version to 3.8.3.
+    - no longer build depends on python.
+  * debian/rules: updated.
+  * debian/docs: updated.
+  * debian/copyright: updated.
+
+ -- LI Daobing <lidaobing@debian.org>  Tue, 03 Nov 2009 22:41:14 +0800
+
+tegaki-zinnia-japanese (0.2-1) unstable; urgency=low
+
+  * New Upstream Version
+  * debian/control: bump standards version to 3.8.2.
+
+ -- LI Daobing <lidaobing@debian.org>  Sun, 16 Aug 2009 12:02:10 +0800
+
+tegaki-zinnia-japanese (0.1-1) unstable; urgency=low
+
+  * Initial release (closes: #514977)
+
+ -- LI Daobing <lidaobing@debian.org>  Wed, 22 Apr 2009 21:17:57 +0800

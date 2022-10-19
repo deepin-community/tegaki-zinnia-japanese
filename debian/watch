@@ -1,0 +1,4 @@
+version=4
+# Please check https://github.com/tegaki/tegaki/releases
+https://github.com/tegaki/tegaki/releases \
+ https://github.com/tegaki/tegaki/releases/download/.*/tegaki-zinnia-japanese-@ANY_VERSION@@ARCHIVE_EXT@ debian uupdate

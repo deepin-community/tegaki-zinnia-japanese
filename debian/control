@@ -1,0 +1,28 @@
+Source: tegaki-zinnia-japanese
+Section: utils
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://tegaki.github.io/
+Vcs-Git: https://salsa.debian.org/debian/tegaki-zinnia-japanese.git
+Vcs-Browser: https://salsa.debian.org/debian/tegaki-zinnia-japanese
+
+Package: tegaki-zinnia-japanese
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Japanese handwriting model for Zinnia
+ Zinnia is a simple, customizable and portable online hand recognition
+ system based on Support Vector Machines. Zinnia simply receives user pen
+ strokes as a sequence of coordinate data and outputs n-best characters
+ sorted by SVM confidence. To keep portability, Zinnia doesn't have any
+ rendering functionality. In addition to recognition, Zinnia provides
+ training module that allows us to create any hand-written recognition
+ systems with low-cost.
+ .
+ This package provide a data model for Zinnia. With this model, Zinnia can
+ recognize Japanese character.
+ .
+ This data model is derived from tomoe project: http://tomoe.sourceforge.jp
